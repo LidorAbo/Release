@@ -1,0 +1,31 @@
+{
+  "release": {
+    "name": "Production release file",
+    "version": "1.0.0",
+    "infrastructure": "1.0.0",
+    "automation": "1.0.0",
+    "environment": "eu-medium",
+    "services": {
+      "intdb": {
+        "version": "1.0.0",
+        "configuration": "1.0.0",
+        "instance_type": "m2.small",
+        "instance_count": 1
+      },
+      "intapi": {
+        "version": "1.0.0",
+        "configuration": "1.0.0",
+        "instance_type": "m2.small",
+        "instance_count": 1
+      },
+      "intweb": {
+        "version": "1.0.0",
+        "configuration": "1.0.0",
+        "instance_type": "m2.small",
+        "instance_count": 1
+
+      }
+
+    }
+  }
+}
