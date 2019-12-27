@@ -1,6 +1,6 @@
 {
     "Services" : {
       "INT_WEB" :  "1.0.0",
-      "INT_API" :  "1.0.0"
+      "INT_API" :  "1.0.1"
       }
 }
